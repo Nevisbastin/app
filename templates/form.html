@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Update Distribution List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1 class="text-center"> DL Subscription </h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 mx-auto">
+        <form method="POST">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="distribution-list">Distribution List:</label>
+            <select class="form-control" id="distribution-list" name="distribution_list">
+              <option value="List 1">List 1</option>
+              <option value="List 2">List 2</option>
+              <option value="List 3">List 3</option>
+              <option value="List 4">List 4</option>
+              <option value="List 5">List 5</option>
+              <option value="List 6">List 6</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
